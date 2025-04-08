@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Forms</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact information</legend>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select name="select" id="select">
+                    <option value="chrome">Google Chrome</option>
+                    <option value="opera">Opera GX</option>
+                    <option value="firefox">Fire Fox</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived</label>
+                    <label>Please Enter Your Age:</label>
+                    <input type="number" id="age" name="age">
+                <textarea name="feedback" id="feedback" rows="4" placeholder="La Paz, Santa Cruz, Sucre, Cochabamba"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 | HTML Forms | José Rivera</p>
+    </footer>
+</body>
+</html>
